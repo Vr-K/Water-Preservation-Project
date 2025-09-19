@@ -7,7 +7,7 @@
 
 ### Currently we are doing preliminary research on how the programs used by East Uudenmaan and Porvoo River water and air protection association work and gathering knowledge on plants and invasive species of vegetation on Finnish waterways. We plan to have an working AI, demo or a prototype that can detect invasive species.
 
-19.09.2025
+🐟 🐟 🐟 19.09.2025 🐟 🐟 🐟
 
 We have working webodm and are researching AI.
 
