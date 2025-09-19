@@ -1,7 +1,7 @@
 # Water-Preservation-Project 🌾
 ## East-Uudenmaan and Porvoo river water and air protection association Project
 
-- [Veera](https://github.com/Vr-K) (scram master)
+- [Veera](https://github.com/Vr-K) (scrum master)
 - [Jakub](https://github.com/Jakub-Marciszonek) (junior dev)
 - [Prashant](https://github.com/Prashant883883) (research)
 
