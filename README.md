@@ -16,6 +16,7 @@ However we do not know how to implement datasets into the workflow. How to actua
 APIs we can use? There are the databases Jakub found. Do we need to look into how to train that data? Or is the data not usable to us because we do not know what data we are perceiving? Do we need to clean the data?
 
 I've found datasets of vegetations photo that could show us in what directions we can aim, plus some possibly are going to be used for training. So far finding datasets that would fit in our expectation is quiet hard (drone photos of water areas with somehow tagged vegetation) if we would have access to the photos taken for the east-usima project and taging them with some external help would be very beneficial. 
+
 At this moment selected two pretrained models for this project APNet-YOLOv8s and DenseNet201 first one is better suited for local AI as its more recourse efficient but the latter is more precise and have more space and potencial for other feuters and even more precision with cost of high computing power required which exteend the time of excecution significatly enough to make it not optimal for local aplicaton and centralized aproche is recommended.
 
 Current tasks/questions that need answers:
