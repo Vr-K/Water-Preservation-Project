@@ -12,7 +12,7 @@
 We have working webodm and are researching AI. 
 Veera needs to write a WebODM installation guide.
 However we do not know how to implement datasets into the workflow. How to actually use WEBODM since we do not have useable data for that. And etc.
-Someone needs to look into TensorFlow and someone else into Keras. I can look into Wazuh and security. There is just so much we need to look into and see how to get about it all.
+~~Someone needs to look into TensorFlow and someone else into Keras. I can look into Wazuh and security. There is just so much we need to look into and see how to get about it all.~~
 APIs we can use? There are the databases Jakub found. Do we need to look into how to train that data? Or is the data not usable to us because we do not know what data we are perceiving? Do we need to clean the data?
 
 
