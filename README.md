@@ -1,36 +1,42 @@
-# Water-Preservation-Project 🌾
-## East-Uudenmaan and Porvoo river water and air protection association Project
+# 🌾 Water-Preservation-Project 🌾 
+## East-Uudenmaan and Porvoo River water and air protection association Project
 
 - [Veera](https://github.com/Vr-K) (scrum master)
 - [Jakub](https://github.com/Jakub-Marciszonek) (junior dev)
 - [Prashant](https://github.com/Prashant883883) (research)
+- Mamata (possible new team member. Haven't asked for her github yet)
 
-### Currently we are doing preliminary research on how the programs used by East Uudenmaan and Porvoo River water and air protection association work and gathering knowledge on plants and invasive species of vegetation on Finnish waterways. We plan to have an working AI, demo or a prototype that can detect invasive species.
+### We have decided on YOLOv8 object recognition AI for now and are looking to test and create working data sets for it using LabelImg. Looking into Svin Trnasformer to add to the process as well.
 
-🐟 🐟 🐟 19.09.2025 🐟 🐟 🐟
+We have the theory on working AI, just need to start work on prototypes.
 
-We have working webodm and are researching AI.
+🌊 🌊 🌊 03.10.2025 🌊 🌊 🌊
 
-Prashant was sick this week and unable to work on the project.
+WebODM data ended up being useless for the project. At least for now, could be useful for future data wrangling of the large files.
 
-Veera has written very Scuffed installation guide for WebODM since the old ones were all partially out of date. They can at least try and help with the install.
+Prashant suggested we use RoboFlow since it can be used to train AI Vision, but it was decided it might be unusable in this situation considering the free mode having a data processing limit along with image volume limit. He found also promising dataset on Finnish plants, but it remains to be seen, need to have a more throughout look.
 
-However we do not know how to implement datasets into the workflow. How to actually use WEBODM since we do not have useable data for that. And etc.
-~~Someone needs to look into TensorFlow and someone else into Keras. I can look into Wazuh and security. There is just so much we need to look into and see how to get about it all.~~
-APIs we can use? There are the databases Jakub found. Do we need to look into how to train that data? Or is the data not usable to us because we do not know what data we are perceiving? Do we need to clean the data?
+Veera says they figured out how to make an dataset that can be used with YOLOv8 for free. They will test out the process and maybe make a tutorial for a dataset to use in this. Since if the project continues past the projected current scope, it would be needed. However it would require manual effort on image labeling front, that we would have to do anyway since the images are very specialized.
 
-I've found datasets of vegetations photo that could show us in what directions we can aim, plus some possibly are going to be used for training. So far finding datasets that would fit in our expectation is quiet hard (drone photos of water areas with somehow tagged vegetation) if we would have access to the photos taken for the east-usima project and taging them with some external help would be very beneficial. 
+Jakub finally says he has narrowed down the best object detection AIs for the project and it should be YOLOv8. YOLOv9 is a newer version but the image recognition seems to only be 1,5% better and that gap will be even less if we are able to add Svin Transformer on top of it. However v8 is easier to set up and requires less knowledge on the part of the user to do so. This will be more useful with less tech savvy client. He will keep on tinkering and figuring out how to work the AI in general.
 
-At this moment selected two pretrained models for this project APNet-YOLOv8s and DenseNet201 first one is better suited for local AI as its more recourse efficient but the latter is more precise and have more space and potencial for other feuters and even more precision with cost of high computing power required which exteend the time of excecution significatly enough to make it not optimal for local aplicaton and centralized aproche is recommended.
+We have possibly a new member in Mamata. For now she will be going through documentation we have(which is not as good as it should be, but it exists) and decide on next Friday if she wants to join the Team or not.
+
+We met up with Kimmo for the first time with other teams. We were the only team that did not realize we should have made a presentation to explain what we are doing, but apparently it went well anyway. We got the raw images from drone flights, contact information for Kimmo and possible names of people we could contact for help. Namely in biologist sense, to help with labeling and plant recognition.
 
 Current tasks/questions that need answers:
-- How to use datasets to train AI?
-   - There are numerous tutorials on the topic which are linked in Teams. But the datasets seem to only contain raw data.
-- How does WebODM work?
-   - for this one we need Client image data to test the prgram. Currently we lack the drone data to test things out.
-- Need to Train said Data
-   - Again Teams has some tutorials on how to progress. Might have nothing, but we are still looking into
-- Need to make WebODM installation tutorial
-    - Veera knows how to install the program and needs to write a quick tutorial so other people dont end up wasting time doing the same-
-- In the databases do we need to utilize Photoshop or other image editing software(Gimp)?
-   - Again need to read up tutorials on how to make Image recognition AI and how to train it
+- Need to make a working dataset so it can be tested with AI
+   - Namely Veera since they keep on being the one going "oh i know how to make a dataset".
+- Find a way to transfer several GB of data between two computers without drive or github since there is so much data
+   - Actually we might be able to move the data between the group in just github, it seems to all be a total of 30GB.
+- Sent the summary of what we are doing to Kimmo
+   - Another task for Veera, since they are the one writing this sprint review as we speak
+-  Lots of data in Teams Channel that needs to be gone over and cleaned up.
+-  Push the project updates to moodle as well, because I keep forgetting to do that
+-  Contact people and wether they would be willing to help with the project/labeling/plant listing/that thing
+  
+Programs/things related to the project:
+
+1) YOLOv8
+2) YOLO (Darkside) format/ PyTorch TXT. Same thing different name
+3) LabelImg
