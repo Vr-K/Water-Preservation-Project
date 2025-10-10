@@ -4,7 +4,7 @@
 - [Veera](https://github.com/Vr-K) (scrum master)
 - [Jakub](https://github.com/Jakub-Marciszonek) (junior dev)
 - [Prashant](https://github.com/Prashant883883) (research)
-- Mamata (possible new team member. Haven't asked for her github yet)
+- [Mamata](https://github.com/mamatanepal53) (possible new team member. Haven't asked for her github yet)
 
 ### We have decided on YOLOv8 object recognition AI for now and are looking to test and create working data sets for it using LabelImg. Looking into Svin Trnasformer to add to the process as well.
 
