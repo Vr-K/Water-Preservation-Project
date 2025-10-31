@@ -1,28 +1,84 @@
 # 🌾 Water-Preservation-Project 🌾 
 ## East-Uudenmaan and Porvoo River water and air protection association Project
 
-- [Veera](https://github.com/Vr-K) (scrum master)
-- [Jakub](https://github.com/Jakub-Marciszonek) (junior dev)
+- [Veera](https://github.com/Vr-K) (struggling to survive)
+- [Jakub](https://github.com/Jakub-Marciszonek) (Our AI head)
 - [Prashant](https://github.com/Prashant883883) (research)
-- [Mamata](https://github.com/mamatanepal53) (possible new team member. Haven't asked for her github yet)
+- [Mamata](https://github.com/mamatanepal53) (Our new team member)
 
-### We have decided on YOLOv8 and Svin Transform for AI and are looking to test and create working data sets for it using Label Studio.
+#### 17.10.2025
 
-We have the theory on working AI, just need to start work on prototypes.
+Review
 
-🌊 🌊 🌊 10.10.2025 🌊 🌊 🌊
+We had a meeting where we met with Riitta Kortisuo and Juha Salo though Teams.
 
-Both Prashant and Mamata were reported sick for the day. This means Prashant has only been present for 2 classes/meetings this semester.
+Juha was the Tech head, not officially tech, but a hobbyist, seemed interested in what we had to offer. Had ideas on how to move forward if our project does end up being useful in the long term.
 
-Teacher suggested they form a seperate team by themselves, which would make it easier for them to make something for the semester instead of catching up on the existing data that has been done.
+Riitta is a nature surveyor for the Association, does hands on work
 
-What will be done with the team composition, will be decided on following friday.
+Apparently Porvoojoki lacks in oxygenation in the summer? Professionals are looking into the why.
 
-Jakub is almoust finished with combining Svin Transformer and YOLOv8 into one pipeline, but keeps facing bugs that prevent us from testing it.
+Our team: AI based, input images, AI with resulted data.
 
-Veera finished the dataset tutorial only on thursday and knows how to make working datasets that work with both YOLOv8 And Svin. Aka COCO. They will contact Kimmo about help with recognizing plants through email and making an actually useable dataset from the images we were given. They also said they would start looking into using the photogrammery maps and creating heatmaps from those, but that might be 17.10th onward kind of deal.
+Our project could add a layer documentation when existing macro plant removal is done, for recreational reasons. When you remove macro plants different plants tend to take over, affects bio balance, this photogrammery might be helpful in making people in positions of power see the result of human intervention. (More data = better data)
 
-Implemented Kanban-board into the project, in case Prashant or Mamata do end up continuing with the project. This way everyone will have a visible and clear idea on what they have done and will try and do.
+We are to present demos at the end of course on december 12th. BEFORE. 12th.
+
+Realization that the seasons are VERY different for plants(obvious but), this will affect datasets. Do we need to make seasonal datasets?
+
+Change of plans with AI. Jacub said Svin Transform connection to YOLOv8 beyond his skill level, so we aare only using YOLOv8. Not really compatiable. It apparently also has the Svin Transform capabilities, will look more into this. UNET, something more precise.
+
+Mamata and Prashant ended up staying in team. We will change up how things are done in the team though, we will start using ganban board. This will be more fair for everyone.
+
+Until next meeting:
+- Mamata will focus on GUI for the project 
+- Prashant will look into research relating to Heatmap
+- Jakub continues with YOLOv8 set up.
+- Veera will remake the dataset. possibly get started on heatmaps as well(bring the tera brick so people can get the image data as well and start making datasets as well)
+
+Regarding datasets, we might need to make different ones? or rather layers of Datasets. See image. We will propably make multiple smaller AIs to test things which will mean layered datasets.
+
+Ex. Make 1st layer dataset that recognized a forest. 2nd layer AI recognizes Species of the Trees. 3rd layer can tell which time of year those trees are in the images. Etc. This is called something like Segmentation in YOLO. Jakub should have made a short explanation that propably makes more sense, might add to sprint.
+
+#### Jakub's take on why we dropped the Svin Transform:
+
+In ultralytics\nn\tasks.py file the f (from) value keeps me from integrating custom swin-transfomer module into YOLOv8. The value in the file is defined in the line:
+
+    for i, (f, n, m, args) in enumerate(d["backbone"] + d["head"]):  # from, number, module, args
+
+This line associate the configuration content by lines interpretation said lines as lists
+The configuration file example looks like this:
+backbone:
+
+  - [from, repeats, module, args]
+    - [-1, 1, Conv, [64, 3, 2]] # 0-P1/2
+
+- The issue that made me stop of integrating the swin transformer into YOLOv8 is that f value in some cases is expected to be integer and in other tuple 
+
+        if m in base_modules:
+            c1, c2 = ch[f], args[0]
+
+- This line is requiring that f is an integer so it caused error when f was tuple
+
+        elif m is Concat:
+            c2 = sum(ch[x] for x in f)
+        elif m in frozenset(
+            {Detect, WorldDetect, YOLOEDetect, Segment, YOLOESegment, Pose, OBB, ImagePoolingAttn, v10Detect}
+        ):
+            args.append([ch[x] for x in f])
+            if m is Segment or m is YOLOESegment:
+                args[2] = make_divisible(min(args[2], max_channels) * width, 8)
+            if m in {Detect, YOLOEDetect, Segment, YOLOESegment, Pose, OBB}:
+                m.legacy = legacy
+        elif m is RTDETRDecoder:  # special case, channels arg must be passed in index 1
+            args.insert(1, [ch[x] for x in f])
+
+- And these few lines show where the error occurred when f was an integer. Specifically by this part of these lines:
+
+      ch[x] for x in f
+
+- That tries to go through every element of f as it would be an list.
+
   
 Programs/things related to the project:
 
