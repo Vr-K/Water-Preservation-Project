@@ -55,7 +55,7 @@ A Youtube tutorial if you are a more visual learner:
 https://www.youtube.com/watch?v=R1ozTMrujOE
 
 This is what we will use to make our custom dataset. Using Label Studio.
-Python needs to be version 3.8 or newer up to 3.11. So set up an env with python 3.11
+Python needs to be version 3.8 up to 3.11. Newers ones do not work! So set up an env with python 3.11
 
 1) pip install
     pip install label-studio
