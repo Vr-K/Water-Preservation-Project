@@ -1,0 +1,17 @@
+// CLI command that runs detection
+yolo predict model=yolo11n.pt source='https://ultralytics.com/images/bus.jpg'
+
+// Custome model CLI detection run
+yolo task=detect mode=predict model=path/to/APNet-YOLOv8s.pt source=path/to/image.jpg
+
+// For custom training, you’ll need a dataset and label configuration in a YAML file
+"Adjust epochs, image size, and other settings per project needs" whatever it means XD
+
+yolo task=detect mode=train model=path/to/APNet-YOLOv8s.pt data=dataset.yaml
+
+Organize your images and labels according to YOLO format if you want to use your own data.
+Create a dataset configuration YAML file.
+Start training with:
+yolo task=detect mode=train data=your_dataset.yaml model=yolov8s.pt epochs=50 imgsz=640
+
+^^Adjust paths, model, epochs, and image size as needed^^
