@@ -1,0 +1,7 @@
+ok so jakub working on ai. using existing datasets to pretrain the ai. will use our existing dataset with the WRONG TYPE OF DATASET because i am an idiot. but it's fine, i will remake it in segmentation format instead.
+
+i finally understood what the segmentation means, which means me remaking the dataset again :) yey team.
+
+mamata will be working on the water AI subset. namely will only be looking for water lilies and common reeds, she will be working on more if she finishes.
+
+prashant apparently doing good with the heatmap research. i dont know he seems to have ran off?

@@ -1,0 +1,9 @@
+14.11.2025 review
+
+we are currently bottled necked. progress is being hampered by seeing if the AI will work or not, if it works great! we can add stuff, if not, we will be forced to regroup and see why it doesnt work.(propably dataset)
+
+Jakub been training AI on water sources images he found and our dataset. Veera Remade a scuffed up segmented dataset to train that AI. Also tried to look up if there is anyway to add the heatmapping onto the project, only source available was the ultralytics LLM which said try using YOLOv11 and heatmapping would be like taking a single frame and calculating from there. The. Mamata worked with water plant dataset, finished. Prashant sick, didn't work on anything I think?
+
+Also Jakub will be moving for the spring semester fully to Coolla and will be leaving the AI project then. Which is a shame, but what you gonna do. Need to read up more on in depth on how the AI works so can continue on where he leaves us off.
+
+Anyway, training AI.

@@ -1,0 +1,13 @@
+26.09.2025 review
+
+Prashant was absent.
+
+Veera and Jakub have tried making progress in researching how to make AI. Yakub had already last week suggested YOLOv8 and YOLOv9 for the AI to use in project. Problem is we have hard time finding a working dataset that is both about plants and is high enough to be used by drone imagining. So we are looking into 1) finding one to use or 2) how to make one
+
+We also finally got answers to some questions from Kimmo regarding questions we had asked. Possibly wrong questions to ask, but they were answered. Also possibly misunderstandings regarding what is expected of us and school Projects. We will see next month when we meet with him face to face.
+
+Jakub continues to look into making working AI and possibly find/make a working dataset. He is the groups "Ai guy".
+
+Veera also will look into how to make working AI and how to make a dataset, but only to get a general idea how both works. Writing down the documentation, general reseach and starting on possible demo/presentation for the project. At least mock up.
+
+We now await possibly getting the original images from the thesis paper to use/test things with. But Teacher needs to get the physical USB stick to move the files due to their sheer size
