@@ -6,25 +6,93 @@
 - [Prashant](https://github.com/Prashant883883) (research)
 - [Mamata](https://github.com/mamatanepal53) (UX)
 
-#### 31.10.2025
+<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-The last two weeks ended up being a time off from the project, propably a bad idea, but sometimes things stall. Nothing much was done on AI and dataset side of things. Aka Veera and Jakub.
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-Veera will continue with datasets and labeling. It is just slow going.
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/github_username/repo_name">
+    <img width="180" height="180" alt="image" src="https://github.com/user-attachments/assets/a53c3b8d-91e3-4552-95c9-cce5f4628a6b" />
+	</a>
+</div>
 
-Jakub will continue with AI trouble shooting to get some working. Testing out datasets as well.
 
-Prashant looked up into some heatmaps, current suggestions are between Grad-CAM and YOLOv8 natives. Split the work, so Prashant will look more into Grad-CAM heatmapping and Veera will look into YOLO native heatmapping. Will compare at the next friday.
+<h3 align="center">School Project for object detection AI</h3>
 
-Mamata working on UX for the project. We are unsure if we will be in a place where we can implement said UI by 12th, but it will be there. Mamata will read up on how to make datasets and hopefully be able to help with labeling.
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-Imo lot of things are coming together, but slowly. Currently just being swamped by other school work so Water Protection Association project is just taking a backseat. Bottlenecked by the datasets, simple but monotonous work that takes a long while.
+This is our student group project for our second year, Fall 2025 for LAB University. The aim of this project is to create a working object detection AI, learn how to make a Image detection AI and how to work one. Where once given a photogrammeric map of an area, the OB will be capable of recognizing harmful vegatation within the area, with possible heatmap detection capabilities.
 
-Programs/things related to the project:
+The project will hopefully be of use when comparing water areas and effects human impact has on them vegetation wise.
 
-1) YOLOv8
-2) Label Studio
-3) WebODM
-4) Flutter
-5) Grad-CAM
-6) 
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+As our project is a student project with primary goal of learning how to make this all a working project, it will be mostly about getting started. WebODM and Label-Studio will both however have working tutorials contained within the repository.
+
+### Prerequisites
+
+* YOLOv8
+* WebODM
+* Label-Studio
+* Basic knowledge of how python works
+
+### Programs and APIs used
+
+1. YOLOv8 and Ultralytics
+2. Python
+3. Docker
+4. Git
+5. Albumentation
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+
+We will add working examples of the project at a later date. Currently we have been purely on survival mode to get this all working.
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [ ] Finish training AI
+- [ ] Heatmap prototype
+- [ ] Implement Albumentation into dataset creation process
+- [ ] Remake datasets to be in line with pretraining data
+- [ ] Rework the readme
+- [ ] Implement UI
+
+
+<!-- CONTACT -->
+## Contact
+Our contact person is
+Veera Korkeamäki - veera.korkeamäki@student.lab.fi
+
+Project Link: Water Preservation Project](https://github.com/Vr-K/Water-Preservation-Project)
+
+
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* []() Porvoonjoen water protection association
+* []() Mira Vorne
+* []() people involved
+
+
