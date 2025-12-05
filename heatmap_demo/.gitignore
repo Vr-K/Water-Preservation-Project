@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.DS_Store
+*.png
+*.jpg
+*.jpeg
+outputs/
+gradcam_result.jpg
+gradcam_heatmap.jpg
+
+
