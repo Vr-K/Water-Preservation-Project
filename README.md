@@ -83,7 +83,7 @@ We will add working examples of the project at a later date. Currently we have b
 <!-- CONTACT -->
 ## Contact
 Our contact person is
-Veera Korkeamäki - veera.korkeamäki@student.lab.fi
+Veera Korkeamäki - veera.korkeamaki@student.lab.fi
 
 Project Link: Water Preservation Project](https://github.com/Vr-K/Water-Preservation-Project)
 
