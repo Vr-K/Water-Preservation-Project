@@ -4,7 +4,7 @@
 - [Veera](https://github.com/Vr-K) (struggling to survive)
 - [Jakub](https://github.com/Jakub-Marciszonek) (Our AI head)
 - [Prashant](https://github.com/Prashant883883) (research)
-- [Mamata](https://github.com/mamatanepal53) (UX)
+- [Mamata](https://github.com/mamatanepal53) (UX and little bit of everything)
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
