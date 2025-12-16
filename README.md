@@ -1,10 +1,8 @@
 # 🌾 Water-Preservation-Project 🌾 
 ## East-Uudenmaan and Porvoo River water and air protection association Project
 
-- [Veera](https://github.com/Vr-K) (struggling to survive)
-- [Jakub](https://github.com/Jakub-Marciszonek) (Our AI head)
-- [Prashant](https://github.com/Prashant883883) (research)
-- [Mamata](https://github.com/mamatanepal53) (UX and little bit of everything)
+- [Veera](https://github.com/Vr-K)
+- [Mamata](https://github.com/mamatanepal53)
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
@@ -93,6 +91,7 @@ Project Link: Water Preservation Project](https://github.com/Vr-K/Water-Preserva
 
 * []() Porvoonjoen water protection association
 * []() Mira Vorne
-* []() people involved
+* [Jakub](https://github.com/Jakub-Marciszonek) (The head of AI on the project in fall semester 2025)
+* [Prashant](https://github.com/Prashant883883) (research on the project in fall semester 2025)
 
 
