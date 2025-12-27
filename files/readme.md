@@ -1,1 +1,3 @@
-some random files to share between the group since the Teams has devolved into a mess
+Files regarding the project,
+
+example code on how to possibly generate a working attention/intensity heatmaps for YOLOv8. Has not been verified yet.
