@@ -1,0 +1,35 @@
+water preservation review
+
+its been a while since last review so i'll cover where our project is currenly as a whole since that is basically what we told to the client as well. Mamata was not present for the meeting.
+
+So our through line is:
+
+- Take drone images during the summer to create a more robust dataset for vegetations we want to detect.
+- Use Label Studio to generate bounding boxes dataset for certain plants. This has to be done by humans.
+- Using the bounding boxes dataset we generate a second dataset using SAM2 that is segmented dataset. This part is done by AI.
+- We use this second dataset to train our model to detect our vegetations, from maps from drone images taken around Porvoojoki Area
+- We are currently training the model using YOLOv8 using CSC Mahti super computer, because otherwise it is impossible
+- Using WebODM we will generate one, single, human readable map
+- Using the finished model we will use Heatmapping which we have made, to point out where specifically on the human readable map the vegetation we are looking for, is
+
+Plant detection from an video drone footage is also something we want to look into, however we do not know how reliable aerial video we would be getting.
+
+We will also need to add a GUI where you can
+- Easily add new images to detect the vegetations in areas
+- Use the WebODM combine all these images feature
+- Activate the Heatmap feature
+
+Sadly as it is, it is impossible to add datasets to train the models any further, considering how long a single round of training takes with YOLOv8 for some reason. I don't think we ever thought to ask why it takes so long. Propably image size and batch size.
+
+Some things of note:
+- We will be using school resources to get images for training dataset, namely a flight drone with camera capabilities and two one terabyte memory cards to contain the images in. I think it has been mentioned in an earlier progress review, the images will be 50m above ground, facing down, in Finland. So very specific image data.
+- We need to start the dataset gathering around May when the weather is optimal and the plants start growing during the summer season.
+The plants we will be detecting for are called in finnish: sinilevä, lupiini, jätti palsami and elämänlanka. Others will be added if the client has any requests, but those are the notable ones. Contact person is Juha Niemi.
+- City of Lahti and City of Mäntsälä might have data on where to take images of invasive species in city bounds. Will have to contact them.
+
+To do:
+- Finish a drone flight course so we can actually use the drones and fly it.
+- Drone images for the dataset during the summer
+- Train the model using CSC once the datasets are done
+- GUI to combine this all into one cohesive whole
+
