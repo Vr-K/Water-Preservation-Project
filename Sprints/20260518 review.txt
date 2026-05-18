@@ -1,0 +1,28 @@
+Update May 18/05/26
+
+Forgot to write up update for April and May. This will be bare bones.
+
+Have been contacting people on where it is permissible to take drone images of the invasive species in Lahti region, people keep forwarding me to other people or ghosting me. Veera has A1/A3 drone flight lisence and is using/accessing school drone at the moment.
+
+Current list of plants we are trying to gather images on (in Finnish and Latin):
+
+sinilevä (Cyanobacteria)
+komealupiini (Lupinus polyphyllus)
+jättiputki -ryhmä (Heracleum persicum -ryhmä)
+jättipalsami (Impatiens glandulifera)
+kurtturuusu (Rosa rugosa)
+kanadanpiiskun (Solidago canadensis) + muut haitalliset vieraslajipiiskut
+viitapihlaja-angervo (Sorbaria sorbifolia)
+valkopajuangervo (Spiraea alba)
+japanintatar (Reynoutria japonica) + muut haitalliset tatar-lajit
+kanadanvesirutto (Elodea canadensis)
+kiehkuravesirutto (Elodea nuttalii)
+
+terttuselja (Sambucus racemosa)
+isotuomipihlaja (Amelanchier spicata)
+valkokarhunköynnös (Convolvunus sepium)
+isosorsimo (Glyceria maxima)
+
+Need to check the CSC runs, if those have been successful or if I forgot everything on how to run the super computers after all. Made a short tutorial for self, but unsure if that one is working.
+
+Genuinely, just experienced massive burnout on March-April, and stopped updating progress. Project has been moving, but I have not been writing down what has been going on.

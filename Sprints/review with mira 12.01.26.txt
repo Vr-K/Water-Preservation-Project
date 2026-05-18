@@ -1,0 +1,18 @@
+review with mira:
+
+contact juha(association)
+	- about invasive species
+		- what are they are interested in detecting?
+		- do they have existing images. i know kimmo was the person, but only so many images, so far only been training AI to distinquish between water/forest/in between(plain) since training has been so slow. do note how with access to supercomputer to train this stuff, AI training will speed up.
+
+in wed classes, can we use juha/tommi drones for taking images
+
+mira will set up CSC for ML stuff for all classes during this week(soon)
+
+keep improving the pipeline. what needs to be done next?
+
+---
+
+prof competences
+
+readme.md for the 
