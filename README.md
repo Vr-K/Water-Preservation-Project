@@ -39,23 +39,25 @@ This is our student group project for our second year, starting from Fall 2025, 
 <br><br>
 The project will hopefully be of use when comparing water areas and effects human impact has on them vegetation wise in Finland.
 <br><br>
-# List of invasive species we are looking to add to the model(In Finnish and Latin):<br>
-* sinilevä (Cyanobacteria)
-* komealupiini (Lupinus polyphyllus)
-* jättiputki -ryhmä (Heracleum persicum -ryhmä)
-* jättipalsami (Impatiens glandulifera)
-* kurtturuusu (Rosa rugosa)
-* kanadanpiiskun (Solidago canadensis) + muut haitalliset vieraslajipiiskut
-* viitapihlaja-angervo (Sorbaria sorbifolia)
-* valkopajuangervo (Spiraea alba)
-* japanintatar (Reynoutria japonica) + muut haitalliset tatar-lajit
-* kanadanvesirutto (Elodea canadensis)
-* kiehkuravesirutto (Elodea nuttalii)
+
+## List of invasive species we are looking to add to the model(In Finnish and Latin):
+
+- sinilevä (Cyanobacteria)
+- komealupiini (Lupinus polyphyllus)
+- jättiputki -ryhmä (Heracleum persicum -ryhmä)
+- jättipalsami (Impatiens glandulifera)
+- kurtturuusu (Rosa rugosa)
+- kanadanpiiskun (Solidago canadensis) + muut haitalliset vieraslajipiiskut
+- viitapihlaja-angervo (Sorbaria sorbifolia)
+- valkopajuangervo (Spiraea alba)
+- japanintatar (Reynoutria japonica) + muut haitalliset tatar-lajit
+- kanadanvesirutto (Elodea canadensis)
+- kiehkuravesirutto (Elodea nuttalii)
 <br><br>
-* terttuselja (Sambucus racemosa)
-* isotuomipihlaja (Amelanchier spicata)
-* valkokarhunköynnös (Convolvunus sepium)
-* isosorsimo (Glyceria maxima)
+- terttuselja (Sambucus racemosa)
+- isotuomipihlaja (Amelanchier spicata)
+- valkokarhunköynnös (Convolvunus sepium)
+- isosorsimo (Glyceria maxima)
 
 
 <!-- GETTING STARTED -->
