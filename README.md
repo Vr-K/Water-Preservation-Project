@@ -105,7 +105,7 @@ Project Link: Water Preservation Project](https://github.com/Vr-K/Water-Preserva
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-<br><br>
+
 * []() Porvoonjoen water protection association
 * []() Mira Vorne
 * [Jakub](https://github.com/Jakub-Marciszonek) (The head of AI on the project in fall semester 2025)
