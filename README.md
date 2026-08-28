@@ -1,6 +1,8 @@
 # 🌾 Water-Preservation-Project 🌾 
 ## East-Uudenmaan and Porvoo River water and air protection association and LAB University Project
 
+(need to add anchors list for easier handling)
+
 - [Veera](https://github.com/Vr-K)
 - [Mamata](https://github.com/mamatanepal53)
 <br>
@@ -74,16 +76,15 @@ Literally all that Prashant contributed to the project. It is broken heatmap tha
 - [ ] isotuomipihlaja (Amelanchier spicata)<br>
 - [x] valkokarhunköynnös (Convolvunus sepium)<br>
 - [x] isosorsimo (Glyceria maxima)<br>
-
 <br><br>
 We have not been able to find all plants even once on the above list. And some were simply forgotten to look for due to the lenght of the list.
 
 <!-- GETTING STARTED -->
-## Getting Started
+## 🔰 Getting Started
 
 Under construction. For now see files Dataset Guide and folder on how to get started. Add progress/pipeline on how to work the project [here].
 
-### Tools used
+### 🛠️ Tools used
 
 1. YOLOv8 and Ultralytics		- training + model, possibly changing over to YOLOv11 or YOLOv26 for their higher accuracy
 2. Python						- for running the programs
@@ -98,14 +99,14 @@ Under construction. For now see files Dataset Guide and folder on how to get sta
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## 👀 Usage
 
 Models for multiple AI that detect invasive species in Finland during different months of the summer. Currently 4 planned, May-Aug. in progress.<br>
-The project as it is, is too large to be shared on github, so we will be only able to update the finished product. Looking for a place to drop the datasets and raw images. Huggingface and Kaggle possibly could work.<br>
+The project as it is, is too large to be shared on github, so we will be only able to update the finished product. Looking for a place to drop the datasets and raw images. Huggingface and Kaggle possibly could work, have not looked into what to use yet.<br>
 Links to dataset to be provided once finished.
 
 <!-- ROADMAP -->
-## Roadmap. Or rather to do list
+## 🛣️ Roadmap. Or rather to do list
 
 - [ ] CSC training AI
 - [x] Heatmap prototype
@@ -118,7 +119,7 @@ Links to dataset to be provided once finished.
 - [ ] Implement UI. We have UI, but have not combined everything together.
 
 <!-- CONTACT -->
-## Contact
+## 🔎 Contact
 Our contact person is<br>
 Veera Korkeamäki - veera.korkeamaki@student.lab.fi
 <br><br>
@@ -126,7 +127,7 @@ Project Link: Water Preservation Project](https://github.com/Vr-K/Water-Preserva
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## 🥸 Acknowledgments
 
 * [Itä-Uudenmaan ja Porvoonjoen vesien- ja ilmansuojeluyhdistys](https://vesi-ilma.fi/) Porvoonjoen water protection association
 * Klemola Pauliina, Ympäristönhoitaja, Kouvolan kaupunki. For helping locate places in Kouvola with invasive species. 
