@@ -1,3 +1,5 @@
+### EDIT: This and everything inside this folder, was literally all that Prashant contributed to the project. It does not work and is clearly just copy pasted from an LLM conversation that he had night before we were meant to present how our project was progressing in last class of Fall 2025 :(
+
 README – Heatmap Demo for Invasive Species Project
 
 This folder contains a small demo that shows how we plan to use heatmaps (Grad-CAM) in our main invasive species detection project.
@@ -70,4 +72,3 @@ Input image of a plant
 Model predicts whether it is invasive
 
 Grad-CAM highlights the important region
-
