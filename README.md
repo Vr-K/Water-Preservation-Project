@@ -1,5 +1,5 @@
 # 🌾 Water-Preservation-Project 🌾 
-## East-Uudenmaan and Porvoo River water and air protection association Project
+## East-Uudenmaan and Porvoo River water and air protection association and LAB University Project
 
 - [Veera](https://github.com/Vr-K)
 - [Mamata](https://github.com/mamatanepal53)
@@ -30,16 +30,16 @@
 </div>
 
 
-<h3 align="center">Invasive plant species object detection AI project</h3>
+<h3 align="center">Finnish invasive plant species object detection AI</h3>
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## 🦭 About The Project
 <br>
 This is our student group project for our second year, starting from Fall 2025, for Itä-Uudenmaan ja Porvoonjoen vesien- ja ilmansuojeluyhdistys. The aim of this project is to create a working object detection AI, learn how to make a Image detection AI and how to work one. Where once given a photogrammeric map of an area, the OB will be capable of recognizing harmful vegatation within the area, with possible heatmap detection capabilities. In this project learning to gather drone images to generate dataset and segment it. How to albumentate said dataset. And other related tasks on how to make an Computer Vision AI.
 
-## Aim of project is to help with detecting invasive species using aerial drone- images and/or video. On dry land, wetland and water. From heights 30m or 50m height off the ground.
+## 🌾🌾🌾 Aim of project is to help with detecting invasive species using aerial drone- images and/or video. On dry land, wetland and water. From heights 30m or 50m height off the ground.
 
-## Folder structure and what contains what
+## 🗂️ Folder structure and what contains what
 #### Dataset Guide<br>
 Guides on how to make 1) Dataset(and env) 2) Work WebODM 3) Work with CSC Roihu(in progress) 4) Possibly depricated guide on Puhti
 #### Heatmap<br>
@@ -57,32 +57,33 @@ Contains all .py files to work out the project.
 #### heatmap_demo<br>
 Literally all that Prashant contributed to the project. It is broken heatmap that was copy pasted from an conversation he had with an LLM the night before final deadline in 2025. :(
 
-## List of invasive species we are looking to add to the model(In Finnish and Latin):
+## 🌿 List of invasive species we are looking to add to the model(In Finnish and Latin):
 
-- sinilevä (Cyanobacteria)
-- komealupiini (Lupinus polyphyllus)
-- jättiputki -ryhmä (Heracleum persicum -ryhmä)
-- jättipalsami (Impatiens glandulifera)
-- kurtturuusu (Rosa rugosa)
-- kanadanpiiskun (Solidago canadensis) + muut haitalliset vieraslajipiiskut
-- viitapihlaja-angervo (Sorbaria sorbifolia)
-- valkopajuangervo (Spiraea alba)
-- japanintatar (Reynoutria japonica) + muut haitalliset tatar-lajit
-- kanadanvesirutto (Elodea canadensis)
-- kiehkuravesirutto (Elodea nuttalii)
+- [x] sinilevä (Cyanobacteria)<br>
+- [x] komealupiini (Lupinus polyphyllus)<br>
+- [x] jättiputki -ryhmä (Heracleum persicum -ryhmä)<br>
+- [x] jättipalsami (Impatiens glandulifera)<br>
+- [x] kurtturuusu (Rosa rugosa)<br>
+- [ ] kanadanpiiskun (Solidago canadensis) + muut haitalliset vieraslajipiiskut<br>
+- [x] viitapihlaja-angervo (Sorbaria sorbifolia)<br>
+- [ ] valkopajuangervo (Spiraea alba)<br>
+- [x] japanintatar (Reynoutria japonica) + muut haitalliset tatar-lajit<br>
+- [ ] kanadanvesirutto (Elodea canadensis)<br>
+- [ ] kiehkuravesirutto (Elodea nuttalii)<br>
+- [x] terttuselja (Sambucus racemosa)<br>
+- [ ] isotuomipihlaja (Amelanchier spicata)<br>
+- [x] valkokarhunköynnös (Convolvunus sepium)<br>
+- [x] isosorsimo (Glyceria maxima)<br>
+
 <br><br>
-- terttuselja (Sambucus racemosa)
-- isotuomipihlaja (Amelanchier spicata)
-- valkokarhunköynnös (Convolvunus sepium)
-- isosorsimo (Glyceria maxima)
-
+We have not been able to find all plants even once on the above list. And some were simply forgotten to look for due to the lenght of the list.
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-As our project is a student project with primary goal of learning how to make this all a working project, it will be mostly about getting started. WebODM, CSC and Label-Studio will however have working tutorials contained within the repository.
+Under construction. For now see files Dataset Guide and folder on how to get started. Add progress/pipeline on how to work the project [here].
 
-### Programs and APIs used
+### Tools used
 
 1. YOLOv8 and Ultralytics		- training + model, possibly changing over to YOLOv11 or YOLOv26 for their higher accuracy
 2. Python						- for running the programs
@@ -90,9 +91,10 @@ As our project is a student project with primary goal of learning how to make th
 4. Docker						- running WebODM
 5. Git							- running WebODM
 6. WebODM						- Combining large volume of drone images into one cohesive image. Possibly depricated for this project.
-7. Albumentations				- Additional augmented images for larger model training
-8. Label-Studio					- Generating databases for the models to train on of
-9. CSC super computers			- Physically training the model, puhti was previously used, but the CSC taken that offline. Will be using Roihu in near future.
+7. Albumentations				- Module for additional augmented images for larger model training
+8. SAM2							- Module for helping segment bbox dataset into segmented dataset
+9. Label-Studio					- Generating databases for the models to train on of
+10. CSC super computers			- Physically training the model, puhti was previously used, but the CSC taken that offline. Will be using Roihu in near future.
 
 
 <!-- USAGE EXAMPLES -->
