@@ -1,0 +1,20 @@
+python3 << EOF
+
+from ultralytics.data.converter import yolo_bbox2segment
+from ultralytics import SAM
+
+# Step 1: Convert bounding boxes to segment labels
+yolo_bbox2segment(
+    im_dir='$LOCAL_SCRATCH/images/path/images/',  # check the location of the images with ls -la $LOCAL_SCRATCH/
+    sam_model="sam2_b.pt"
+)
+
+# Step 2 (optional): Run SAM prediction on the validation images and save outputs
+model = SAM("sam2_b.pt")
+results = model.predict(
+    source='$LOCAL_SCRATCH/images/path/images/',   # check the location of the images with ls -la $LOCAL_SCRATCH/
+    save=True,         # Saves annotated images to ./runs/predict/
+    show=False         # Stops the DISPLAY warning
+)
+
+EOF
