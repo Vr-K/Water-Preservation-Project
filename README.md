@@ -101,8 +101,7 @@ Under construction. For now see files Dataset Guide and folder on how to get sta
 <!-- USAGE EXAMPLES -->
 ## 👀 Usage
 
-Models for multiple AI that detect invasive species in Finland during different months of the summer. Currently 4 planned, May-Aug. in progress.<br>
-The project as it is, is too large to be shared on github, so we will be only able to update the finished product. Looking for a place to drop the datasets and raw images. Huggingface and Kaggle possibly could work, have not looked into what to use yet.<br>
+The models and datasets will be open source one project is finished. Currently there are plans for 4 distinct AI for months in the summer and easier invasive species detection, between May-Aug. In progress. Looking for a place to drop the datasets and raw images. Huggingface and Kaggle possibly could work, have not looked into what to use yet.<br>
 Links to dataset to be provided once finished.
 
 <!-- ROADMAP -->
