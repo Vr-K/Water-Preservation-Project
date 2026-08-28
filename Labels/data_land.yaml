@@ -1,0 +1,7 @@
+path: C:\path\for\images
+train: images	          # train.txt Points to the folder of training images
+val: val	            # val.txt Points to the folder of validation images / not needed, if not enough images for dataset, but useful in testing validation
+nc: 9                    # number of classes
+names: ['Lupiini', 'Kurtturuusu', 'Jattiputki', 'Jattipalsami', 'Piisku', 'Tatar', 'Terttuselja', 'Valkokarhunkoynnos', 'Viitapihlaja-angervo']
+
+# for both reference and super computer use
